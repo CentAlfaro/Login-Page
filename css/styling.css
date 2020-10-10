@@ -52,22 +52,23 @@ body
 }
 
 
-#email-input{
-    width: 300px;  
+.credential-box{
+    width: 308px;  
     height: 40px;  
     border: none;  
     border-radius: 3px;  
     padding-left: 8px;  
 }
-#pass-input{
-    width: 300px;  
+.credential-box-small{
+    width: 150px;  
     height: 40px;  
     border: none;  
     border-radius: 3px;  
     padding-left: 8px;  
 }
 
-#btnSubmit{
+
+.btnSubmit{
     font-size: 15px;
     width: 300px;  
     height: 30px;  
@@ -79,11 +80,11 @@ body
     margin-bottom: 1em;
     
 }
-#btnSubmit:hover{
+.btnSubmit:hover{
     background-color: #45a29e;
 }
 
-#btnRegister{
+.btnRegister{
     font-size: 15px;
     width: 300px;  
     height: 30px;  
@@ -94,23 +95,34 @@ body
     color: black;
     margin-bottom: 1em;
 }
-#btnRegister:hover{ 
+.btnRegister:hover{ 
     background-color: #45a29e;  
 }
-
 
 span{  
     color: white;  
     font-size: 17px;  
 }  
-a{  
-    float: right;  
-    
-}  
 
-#forgot{
+
+.forgot{
     color: #66fcf1;
 }
-#forgot:hover{
+.forgot:hover{
     color: black;
 }
+
+.or-field{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #fff; 
+    line-height: 0.1em;
+    margin: 10px 0 20px;  
+}
+
+.or-line{
+    background:#1f2833; 
+    padding:0 10px; 
+}
+
+
